@@ -1,0 +1,36 @@
+{
+    "private": true,
+    "name": "@asonnydayforabbie/invitation",
+    "title": "A Sonny Day For Abbie - Invitation",
+    "version": "1.0.0",
+    "author": "Sonny",
+    "type": "module",
+    "engines": {
+        "node": ">=14.17",
+        "npm": ">=6.0"
+    },
+    "scripts": {
+        "start": "node --experimental-json-modules --no-warnings build/watch.js",
+        "build": "node --experimental-json-modules --no-warnings build/build.js",
+        "deploy": "gh-pages -d www"
+    },
+    "dependencies": {
+        "locomotive-scroll": "^4.1.4",
+        "modujs": "^1.4.2",
+        "modularload": "^1.2.6",
+        "normalize.css": "^8.0.1",
+        "svg4everybody": "^2.1.9"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.4",
+        "browser-sync": "^2.27.9",
+        "concat": "^1.0.3",
+        "esbuild": "^0.14.27",
+        "kleur": "^4.1.4",
+        "node-notifier": "^10.0.1",
+        "node-sass": "^7.0.1",
+        "postcss": "^8.4.12",
+        "svg-mixer": "^2.3.14",
+        "tiny-glob": "^0.2.9"
+    }
+}

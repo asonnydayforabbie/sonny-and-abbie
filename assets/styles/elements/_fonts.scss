@@ -1,0 +1,22 @@
+// ==========================================================================
+// Base / Fonts
+// ==========================================================================
+
+
+@font-face {
+    font-family: 'LeMajor Regular';
+    src: url('../fonts/LeMajor-Regular.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sudestada';
+    src: url('../fonts/Sudestada.ttf');
+    font-style: normal;
+}
+
+$font-lemajor-regular: 'LeMajor Regular';
+
+$font-sudestada: 'Sudestada';
+
+$font-lucida : 'Lucida Grande';
