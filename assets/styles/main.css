@@ -1038,7 +1038,7 @@ h6, .o-h6 {
 }
 
 .o-scroll {
-  background-color: #FFFFFF;
+  background-color: #D4C9C9;
   overflow: hidden;
 }
 
@@ -1697,7 +1697,7 @@ html:not(.has-scroll-smooth) .c-fixed {
   right: 20px;
   top: 30%;
   z-index: 1;
-  color: #FFFFFF;
+  color: #D4C9C9;
   padding: 1.5rem 2.5rem;
   font-size: 1.25rem;
 }
@@ -1878,7 +1878,7 @@ html:not(.has-scroll-smooth) .c-fixed {
 
 .c-lerp-block_index {
   vertical-align: middle;
-  color: #FFFFFF;
+  color: #D4C9C9;
   width: 3.75rem;
   height: 2.8125rem;
   display: inline-flex;
